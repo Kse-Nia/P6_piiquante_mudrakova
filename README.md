@@ -2,6 +2,7 @@
 </br>
 </br>
 Réalisation de la partie Backend de l'application web pour la société *Piiquante*.
+</br>
 Les clients peuvent créer une « galerie de sauces » qui permet de télécharger leurs sauces piquantes préférées et de liker ou disliker celles des autres.
 
 Afin de lancer le projet: </br>
