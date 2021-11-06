@@ -1,4 +1,4 @@
-# P6_piiquante_mudrakova
+# Projet n°6 de la formation DW de OPenclassrooms ~ Piiquante 🌶
 </br>
 </br>
 Réalisation d'application web pour la société *Piiquante*.
@@ -7,6 +7,6 @@ Les clients peuvent créer une « galerie de sauces » qui permet de télécharg
 Afin de lancer le projet: </br>
   ~ cloner le projet
    </br>
-  ~ se rendre dans le dossier frontend et taper `npm start`
+  ~ se rendre dans le dossier frontend et faire `npm start`
    </br>
-  ~ puis se rendre dans le dossier backend et taper `nodemon server`
+  ~ puis se rendre dans le dossier backend et faire `nodemon server`
