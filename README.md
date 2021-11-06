@@ -1,5 +1,6 @@
 # P6_piiquante_mudrakova
-Projet 6 de la formation DW
+</br>
+**Projet 6 de la formation DW**
 
 Réalisation d'application en ligne pour la société *Piiquante*.
 Les clients peuvent créer une « galerie de sauces » qui leur permet de télécharger leurs sauces piquantes préférées et de liker ou disliker celles des autres.
