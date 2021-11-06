@@ -1,7 +1,7 @@
 # Projet n°6 de la formation DW de Openclassrooms ~ Piiquante 🌶
 </br>
 </br>
-Réalisation d'application web pour la société *Piiquante*.
+Réalisation de la partie Backend de l'application web pour la société *Piiquante*.
 Les clients peuvent créer une « galerie de sauces » qui permet de télécharger leurs sauces piquantes préférées et de liker ou disliker celles des autres.
 
 Afin de lancer le projet: </br>
