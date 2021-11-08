@@ -1,4 +1,4 @@
-# Projet n°6 de la formation DW de Openclassrooms ~ Piiquante 🌶
+# Projet n°6 de la formation DW Openclassrooms ~ Piiquante 🌶
 </br>
 </br>
 Réalisation de la partie Backend de l'application web pour la société *Piiquante*.
