@@ -39,7 +39,6 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(bodyParser.json());
 app.use(express.json());
 
 // Express-rate-limit
@@ -51,7 +50,6 @@ const limiter = rateLimit({
 
 app.use(limiter);
 
-app.use(bodyParser.json());
 app.use('/images', express.static(path.join(__dirname, 'images')));
 app.use('/api/auth', userRoutes, limiter);
 app.use('/api/sauces', sauceRoutes, limiter);
