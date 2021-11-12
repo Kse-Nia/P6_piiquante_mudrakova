@@ -2,6 +2,7 @@ const express = require('express');
 const helmet = require("helmet");
 const rateLimit = require('express-rate-limit');
 const mongoose = require('mongoose');
+const mongoSanitize = require('express-mongo-sanitize');
 
 /// Config dotenv
 require('dotenv').config();
@@ -49,6 +50,23 @@ const limiter = rateLimit({
 });
 
 app.use(limiter);
+app.use(mongoSanitize());
+app.use(
+    mongoSanitize({
+        replaceWith: '_',
+    }),
+);
+
+app.use(
+    mongoSanitize({
+        onSanitize: ({
+            req,
+            key
+        }) => {
+            console.warn(`This request[${key}] is sanitized`, req);
+        },
+    }),
+);
 
 app.use('/images', express.static(path.join(__dirname, 'images')));
 app.use('/api/auth', userRoutes, limiter);
